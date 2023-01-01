@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&family=Rokkitt:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="flex items-center h-screen bg-red-200">
+      <div class="flex justify-between w-1/2 mx-auto m-12 bg-white rounded-xl">
+        <div class="flex flex-col items-start justify-start p-12">
+          <h2 class="text-6xl font-serif my-4">Login In</h2>
+          <p class="text-xs">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non cumque
+          </p>
+          <input
+            type="text"
+            placeholder="Enter your Email"
+            class="bg-white w-full border border-slate-300 p-6 mt-12 rounded-md placeholder:text-slate-500 placeholder:text-sm focus:outline-none"
+          />
+          <div class="flex w-full items-center justify-between my-5">
+            <a href="#" class="">Forget your password?</a>
+            <button
+              type="button"
+              class="py-4 px-6 rounded-md text-white bg-sky-600 text-center"
+            >
+              Next <span class="ml-3">➤</span>
+            </button>
+          </div>
+
+          <hr class="h-[1px] w-full bg-slate-300" />
+          <p class="text-center my-3 mx-auto text-slate-500">Or Login with</p>
+          <div class="flex w-full items-center justify-between my-5">
+            <div class="flex items-center border border-slate-300 px-5 py-2">
+              <button class="bg-white pr-2">
+                <img class="w-10 h-10" src="./images/facebook.png" />
+              </button>
+              <p>FaceBook</p>
+            </div>
+            <div class="flex items-center border border-slate-300 px-5 py-2">
+              <button class="bg-white pr-2">
+                <img class="w-10 h-10" src="./images/google.png" />
+              </button>
+              <p>Google</p>
+            </div>
+          </div>
+        </div>
+        <div
+          style="background-image: url('./images/image.jpg')"
+          class="w-1/2 h-100 bg-cover bg-auto bg-no-repeat bg-center rounded-r-xl"
+        ></div>
+      </div>
+    </div>
+  </body>
+</html>
